@@ -9,7 +9,7 @@ Nov 4
   * Moves the zip contents to the specified google drive folders
     
 
-2. AptosEDAv2.ipynb: Exploratory Data Analysis of APTOS dataset (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data?select=test_images)
+2. AptosEDAv2.ipynb: Exploratory Data Analysis of APTOS dataset
 
 
 3. AptosSampler.ipynb: Sampling (for compute and memory resource constraints):
