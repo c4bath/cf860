@@ -23,6 +23,15 @@ Nov 4
 
 3. AptosSampler.ipynb: Sampling (for compute and memory resource constraints):
    Sampling (for compute and memory resource constraints):
-   * 10% of the 3,662 images from the initial APTOS training set split 70/30 into train_small and test_small
+   * 10% of the 3,662 images from the initial APTOS train_set split 70/30 into train_small and test_small
    * creates .csv files train_small and test_small with 'id_code' and 'diagnosis' for the corresponding sample sets
+   * original class balances preserved
+
+Nov 5
+
+4. AptosSamplerTrain.ipynb: Sampling (for compute and memory resource constraints):
+   Sampling (for compute and memory resource constraints):
+   * Difference from '3.AptosSampler.ipynb' - deal with train/test split split in subsequent modeling files
+   * 10% of the 3,662 images from the initial APTOS train_setinto train_small2
+   * creates .csv file train_small and test_small with 'id_code' and 'diagnosis' for the corresponding sample set
    * original class balances preserved
