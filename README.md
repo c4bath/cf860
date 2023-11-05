@@ -1,10 +1,14 @@
 # cf860
 TMU CIND860  - Advanced Data Analytics Project
 
+Diabetic Retinopathy Detection and Classification
+
 Nov 4
 
+NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 Blindness Detection competition dataset (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+
 1. AptosDatasetLoader.ipynb: This file:
-  * downloads the APTOS dataset zip file (9.51GB) from the Kaggle APTOS 2019 Blindness Detection competition (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data) to google drive
+  * downloads the APTOS dataset zip file (9.51GB) from the Kaggle APTOS 2019 Blindness Detection competition to google drive
   * unzips the file
   * Moves the zip contents to the specified google drive folders
     
