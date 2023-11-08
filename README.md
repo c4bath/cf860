@@ -35,3 +35,9 @@ Nov 5
    * 10% of the 3,662 images from the initial APTOS train_setinto train_small2
    * creates .csv file train_small and test_small with 'id_code' and 'diagnosis' for the corresponding sample set
    * original class balances preserved
+  
+Nov 8
+
+5. Transfer_learning_and_finetuningNov7v2.ipynb
+   * Based on https://www.tensorflow.org/tutorials/images/transfer_learning
+   * As of Nov 8, does not work correctly. In[86] model.fit - val_accuracy is 0.2692 for all epochs. Likewise in IN[93] (fine-tuning), val_accuracy is 0.5 for all epochs
