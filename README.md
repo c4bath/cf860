@@ -12,7 +12,7 @@ Nov 10
 
    AptosResNetNov9v3cfg.ipynb
    
-   * This model classifies 5 levels of Diabetic Retinopathy 'No DR', 'Mild', 'Moderate', 'Severe', 'Proliferative DR'. It uses transfer learning and is based on ResNet18.  It is adapted from https://www.coursera.org/learn/retinopathy-detection-using-deep-learning/supplement/em4yb/project-based-course-overview
+   * This model classifies 5 levels of Diabetic Retinopathy 'No DR', 'Mild', 'Moderate', 'Severe', 'Proliferative DR' and is trained and tested on the full APTOS dataset. It uses transfer learning and is based on ResNet18.  It is adapted from https://www.coursera.org/learn/retinopathy-detection-using-deep-learning/supplement/em4yb/project-based-course-overview
 
    AptosMobileNetVsNov10v1cfg.ipynb
 
@@ -20,9 +20,9 @@ Nov 10
      
    RFMiD2ResNetNov10v1cfg.ipynb
    
-   * This file is based on AptosResNetNov9v3cfg.ipynb but performs a different task (classifying the 5 most prevalent classes (healthy and 4 retinal diseases) on an altogether different dataset RFMiD2.0 I am investigating why the model will not fit: I get an error  
+   * This file is based on AptosResNetNov9v3cfg.ipynb but performs a different task (classifying the 5 most prevalent classes (healthy and 4 retinal diseases) on an altogether different dataset RFMiD2.0; I am investigating why the model will not fit: I get an error:  
 
-" ValueError: logits and labels must have the same shape, received "
+         " ValueError: logits and labels must have the same shape, received "
 
   
 Nov 8
