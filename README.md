@@ -9,24 +9,27 @@ NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 
 Files:
 
 Nov 10
+
    AptosResNetNov9v3cfg.ipynb
+   
    * This model classifies 5 levels of Diabetic Retinopathy 'No DR', 'Mild', 'Moderate', 'Severe', 'Proliferative DR'. It uses transfer learning and is based on ResNet18.  It is adapted from https://www.coursera.org/learn/retinopathy-detection-using-deep-learning/supplement/em4yb/project-based-course-overview
 
    AptosMobileNetVsNov10v1cfg.ipynb
+
    * This file uses a MobileNetV2 model to undertake the same task on the same dataset as AptosResNetNov9v3cfg.ipynb.  I'm in the process of diagnosing why it performs extremely poorly - there must be configuration error or other issue.
      
    RFMiD2ResNetNov10v1cfg.ipynb
+   
    *THis file is based on AptosResNetNov9v3cfg.ipynb but performs a different task (classifying the 5 most prevalent classes (healthy and 4 retinal diseases) on an altogether different dataset RFMiD2.0 I am investigating why the model will not fit: I get an error  
 
 " ValueError: logits and labels must have the same shape, received "
 
-
-   
+  
 Nov 8
+
    Transfer_learning_and_finetuningNov7v2.ipynb
    * Based on https://www.tensorflow.org/tutorials/images/transfer_learning
    * As of Nov 8, does not work correctly. In[86] model.fit - val_accuracy is 0.2692 for all epochs. Likewise in IN[93] (fine-tuning), val_accuracy is 0.5 for all epochs
-
 
 Nov 5
 
