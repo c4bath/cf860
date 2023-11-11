@@ -20,7 +20,7 @@ Nov 10
      
    RFMiD2ResNetNov10v1cfg.ipynb
    
-   *THis file is based on AptosResNetNov9v3cfg.ipynb but performs a different task (classifying the 5 most prevalent classes (healthy and 4 retinal diseases) on an altogether different dataset RFMiD2.0 I am investigating why the model will not fit: I get an error  
+   * This file is based on AptosResNetNov9v3cfg.ipynb but performs a different task (classifying the 5 most prevalent classes (healthy and 4 retinal diseases) on an altogether different dataset RFMiD2.0 I am investigating why the model will not fit: I get an error  
 
 " ValueError: logits and labels must have the same shape, received "
 
