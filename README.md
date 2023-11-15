@@ -6,6 +6,11 @@ Diabetic Retinopathy Detection and Classification
 
 NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 Blindness Detection competition dataset (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
 
+The Aptos dataset includes 3,662 CFP images collected from subjects living in rural areas of India
+
+			Sikder, N., Chowdhury, M. S., Arif, A. S. M., & Nahid, A. A. (2019, December). Early blindness detection based on retinal images using ensemble learning. In 2019 22nd International Conference on Computer and Information Technology (ICCIT) (pp. 1-6). IEEE.
+
+
 Files:
 
 Nov 15
