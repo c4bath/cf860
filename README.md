@@ -8,6 +8,11 @@ NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 
 
 Files:
 
+Nov 15
+
+   AptosEDAv3.ipynb: Exploratory Data Analysis of APTOS dataset - corrected the pie chart labels
+
+
 Nov 10
 
    AptosResNetNov9v3cfg.ipynb
