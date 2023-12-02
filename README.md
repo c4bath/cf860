@@ -59,7 +59,7 @@ All the relevant Pandas Profiling is included in the Final Report.
 
 10. AptosResNetNov9v3cfg.ipynb
 
-   Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an initial template for transfer learning pipeline
+   Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an preliminary template for pre-trained architecture / transfer learning pipeline
 
 *********************************************************************************
 
