@@ -4,14 +4,61 @@ TMU CIND860  - Advanced Data Analytics Project
 Diabetic Retinopathy Detection and Classification
 
 
-NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 Blindness Detection competition dataset (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+NOTE: I have swapped out the RFMiD2.0 dataset in favor of the Kaggle APTOS 2019 Blindness Detection competition dataset as the Primary datast (https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
 
 The Aptos dataset includes 3,662 CFP images collected from subjects living in rural areas of India
 
 			Sikder, N., Chowdhury, M. S., Arif, A. S. M., & Nahid, A. A. (2019, December). Early blindness detection based on retinal images using ensemble learning. In 2019 22nd International Conference on Computer and Information Technology (ICCIT) (pp. 1-6). IEEE.
 
+Also used is the Diabetic Retinopathy Detection dataset.  It is more genetically and geographically heterogeneous than Aptos and serves as a secondary dataset for testing only
 
 Files:
+
+Nov 30 Module 4 Submission:
+
+Files (shown in order of methodology as presented in Final Report)
+
+1. APTOS_CLAHE_preprocessing.ipynb
+
+   Function: apply image preprocessing (CLAHE) to the APTOS dataset
+
+2. APTOS_EDA.ipynb
+
+   Function: EDA on the APTOS dataset (i.e. class distribution)
+
+3. APTOS_Image_EDAv1.ipynb
+
+    Function: EDA on the APTOS image files (dimensions and filesize [bytes])
+
+4. DR_Detection_Kaggle_EyePACS_EDA.ipynb
+
+   Function: EDA on the secondary testing Diabetic Retinopathy Detection eyePACS dataset (i.e. class distribution)
+
+5. DR_Detection_EyePACS_Image_EDAv1.ipynb
+
+   Function: EDA on the Diabetic Retinopathy Detection eyePACS dataset image files (dimensions and filesize [bytes])
+
+6. APTOS_FCN_clahe_Tuner.ipynb
+
+   Function: construct a basic CNN and apply hypertuning. Train, validate and test on APTOS and test on Diabetic Retinopathy Detection eyePACS
+
+7. APTOS_FCN_clahe_TUNED_CrossVal_v1.ipynb
+
+   Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
+
+8. APTOS_MobileNetv2CLAHE_n29.ipynb
+
+   Function: Use MobileNetV2 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
+
+9. APTOS_EfficientNetV2B3_CLAHE_n29.ipynb.ipynb
+
+   Function: Use EfficientNetV2B3 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
+
+10. AptosResNetNov9v3cfg.ipynb
+
+   Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an initial template for transfer learning pipeline
+
+*********************************************************************************
 
 Nov 15
 
