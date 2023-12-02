@@ -22,7 +22,10 @@ Files (shown in order of methodology as presented in Final Report)
 
    Function: apply image preprocessing (CLAHE) to the APTOS dataset
 
-2. APTOS_EDA.ipynb
+PLEASE NOTE regarding all EDA files: Pandas Profiling used but output does not display in GitHub.  
+All the relevant Pandas Profiling is included in the Final Report.
+
+2. APTOS_EDA.ipynb 
 
    Function: EDA on the APTOS dataset (i.e. class distribution)
 
