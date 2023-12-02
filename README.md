@@ -14,7 +14,7 @@ Also used is the Diabetic Retinopathy Detection dataset.  It is more genetically
 
 Files:
 
-Nov 30 Module 4 Submission:
+Dec 1 Module 4 Submission (end of week 12):
 
 Files (shown in order of methodology as presented in Final Report)
 
