@@ -24,7 +24,7 @@ Files (shown in order of methodology as presented in Final Report)
 
 2. DR_Detect_eyePACs_CLAHE_preprocessing.ipynb
 
-   Function: apply image preprocessing (CLAHE) to the secondary Diabetic Retinopathy Detection eyePACS
+   Function: apply image preprocessing (CLAHE) to the secondary dataset Diabetic Retinopathy Detection eyePACS
 
 PLEASE NOTE regarding all EDA files: Pandas Profiling used but output does not display in GitHub.  
 All the relevant Pandas Profiling is included in the Final Report.
@@ -45,13 +45,13 @@ All the relevant Pandas Profiling is included in the Final Report.
 
    Function: EDA on the Diabetic Retinopathy Detection eyePACS dataset image files (dimensions and filesize [bytes])
 
-6. APTOS_FCN_clahe_Tuner.ipynb
+6. APTOS_FCN_clahe_Tuner_d3.ipynb
 
    Function: construct a basic CNN and apply hypertuning. Train, validate and test on APTOS and test on Diabetic Retinopathy Detection eyePACS
 
 7. APTOS_FCN_clahe_TUNED_CrossVal_d3.ipynb
 
-   Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
+   Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner_d3.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
 
 8. APTOS_MobileNetv2CLAHE_d3.ipynb
 
