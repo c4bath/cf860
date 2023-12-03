@@ -63,7 +63,7 @@ Models / Experiments
 
    Function: Use MobileNetV2 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
-11. APTOS_EfficientNetV2B3_CLAHE_n29.ipynb.ipynb
+11. APTOS_EfficientNetV2B3_CLAHE_d3.ipynb
 
     Function: Use EfficientNetV2B3 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
