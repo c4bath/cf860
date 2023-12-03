@@ -18,6 +18,8 @@ Dec 1 Module 4 Submission (end of week 12):
 
 Files (shown in order of methodology as presented in Final Report)
 
+Image Preprocessing
+
 1. APTOS_CLAHE_preprocessing.ipynb
 
    Function: apply image preprocessing (CLAHE) to the APTOS dataset
@@ -25,6 +27,8 @@ Files (shown in order of methodology as presented in Final Report)
 2. DR_Detect_eyePACs_CLAHE_preprocessing.ipynb
 
    Function: apply image preprocessing (CLAHE) to the secondary dataset Diabetic Retinopathy Detection eyePACS
+
+EDA Files
 
 PLEASE NOTE regarding all EDA files: Pandas Profiling used but output does not display in GitHub.  
 All the relevant Pandas Profiling is included in the Final Report.
@@ -45,23 +49,25 @@ All the relevant Pandas Profiling is included in the Final Report.
 
    Function: EDA on the Diabetic Retinopathy Detection eyePACS dataset image files (dimensions and filesize [bytes])
 
-6. APTOS_FCN_clahe_Tuner_d3.ipynb
+Models
+
+7. APTOS_FCN_clahe_Tuner_d3.ipynb
 
    Function: construct a basic CNN and apply hypertuning. Train, validate and test on APTOS and test on Diabetic Retinopathy Detection eyePACS
 
-7. APTOS_FCN_clahe_TUNED_CrossVal_d3.ipynb
+8. APTOS_FCN_clahe_TUNED_CrossVal_d3.ipynb
 
    Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner_d3.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
 
-8. APTOS_MobileNetv2CLAHE_d3.ipynb
+9. APTOS_MobileNetv2CLAHE_d3.ipynb
 
    Function: Use MobileNetV2 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
-9. APTOS_EfficientNetV2B3_CLAHE_n29.ipynb.ipynb
+10. APTOS_EfficientNetV2B3_CLAHE_n29.ipynb.ipynb
 
    Function: Use EfficientNetV2B3 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
-10. AptosResNetNov9v3cfg.ipynb
+11. AptosResNetNov9v3cfg.ipynb
 
    Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an preliminary template for pre-trained architecture / transfer learning pipeline
 
