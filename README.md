@@ -73,7 +73,15 @@ Models / Experiments
 
 13. APTOS_MobileNetV2_CLAHE_Binary_d5.ipynb
 
-Function: BINARY CLASSIFICATION version ofAPTOS_MobileNetv2CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
+Function: BINARY CLASSIFICATION version of APTOS_MobileNetv2CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
+
+14. APTOS_MobileNetV2_CLAHE_Binary2_d5.ipynb
+
+Function: BINARY CLASSIFICATION version ofA PTOS_MobileNetv2CLAHE_d3.ipynb  No_DR and Mild into class 'No_DR' and  Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
+
+15. APTOS_EfficientNetV2B3_CLAHE_Binary_d5.ipynb
+
+Function: BINARY CLASSIFICATION version of APTOS_EfficientNetV2B3_CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
 
 *********************************************************************************
 
