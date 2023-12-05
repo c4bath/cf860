@@ -71,6 +71,10 @@ Models / Experiments
 
    Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an preliminary template for pre-trained architecture / transfer learning pipeline
 
+13. APTOS_MobileNetV2_CLAHE_Binary_d5.ipynb
+
+Function: BINARY CLASSIFICATION version ofAPTOS_MobileNetv2CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
+
 *********************************************************************************
 
 Nov 15
