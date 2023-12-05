@@ -67,21 +67,21 @@ Models / Experiments
 
     Function: Use EfficientNetV2B3 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
-12. AptosResNetNov9v3cfg.ipynb
-
-   Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an preliminary template for pre-trained architecture / transfer learning pipeline
-
-13. APTOS_MobileNetV2_CLAHE_Binary_d5.ipynb
+12. APTOS_MobileNetV2_CLAHE_Binary_d5.ipynb
 
 Function: BINARY CLASSIFICATION version of APTOS_MobileNetv2CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
 
-14. APTOS_MobileNetV2_CLAHE_Binary2_d5.ipynb
+13. APTOS_MobileNetV2_CLAHE_Binary2_d5.ipynb
 
 Function: BINARY CLASSIFICATION version ofA PTOS_MobileNetv2CLAHE_d3.ipynb  No_DR and Mild into class 'No_DR' and  Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
 
-15. APTOS_EfficientNetV2B3_CLAHE_Binary_d5.ipynb
+14. APTOS_EfficientNetV2B3_CLAHE_Binary_d5.ipynb
 
 Function: BINARY CLASSIFICATION version of APTOS_EfficientNetV2B3_CLAHE_d3.ipynb  Mild, Moderate, Severe and Proliferative_DR classes consolidated into class 'Yes_DR'
+
+15. AptosResNetNov9v3cfg.ipynb
+
+   Function: NOT REFERENCED IN THE FINAL REPORT.  Used as an preliminary template for pre-trained architecture / transfer learning pipeline
 
 *********************************************************************************
 
