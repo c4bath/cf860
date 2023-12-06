@@ -51,7 +51,7 @@ Image Preprocessing
 
 Models / Experiments
 
-7. APTOS_FCN_clahe_Tuner_d3.ipynb
+7. APTOS_FCN_clahe_Tuner_d5.ipynb (Dec 5 replacing : APTOS_FCN_clahe_Tuner_d3.ipynb)
 
    Function: construct a basic CNN and apply hypertuning. Train, validate and test on APTOS and test on Diabetic Retinopathy Detection eyePACS
 
