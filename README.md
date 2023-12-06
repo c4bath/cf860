@@ -59,11 +59,11 @@ Models / Experiments
 
    Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner_d3.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
 
-9. APTOS_MobileNetv2CLAHE_d3.ipynb
+9. APTOS_MobileNetV2_CLAHE_d5.ipynb (Dec 5 replacing : APTOS_MobileNetv2CLAHE_d3.ipynb)
 
    Function: Use MobileNetV2 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
-11. APTOS_EfficientNetV2B3_CLAHE_d3.ipynb
+11. APTOS_EfficientNetV2B3_CLAHE_d5.ipynb  (Dec 5 replacing :APTOS_EfficientNetV2B3_CLAHE_d3.ipynb)
 
     Function: Use EfficientNetV2B3 pre-trained architecture as basis for initial model, train and validate on APTOS, fine-tune with ImageNet weights to retrain, validate and test on APTOS and test on test on Diabetic Retinopathy Detection eyePACS
 
