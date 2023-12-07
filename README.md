@@ -55,7 +55,7 @@ Models / Experiments
 
    Function: construct a basic CNN and apply hypertuning. Train, validate and test on APTOS and test on Diabetic Retinopathy Detection eyePACS
 
-8. APTOS_FCN_clahe_TUNED_CrossVal_d3.ipynb
+8. APTOS_FCN_clahe_TUNED_CrossVal_d6.ipynb (Dec 6 replacing APTOS_FCN_clahe_TUNED_CrossVal_d5.ipynb)
 
    Function: based on the output hypertuned model from APTOS_FCN_clahe_Tuner_d3.ipynb, retrain with 5-fold cross validation and test using APTOS and test on Diabetic Retinopathy Detection eyePACS
 
